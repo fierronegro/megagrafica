@@ -1,0 +1,27 @@
+@media (min-width: 825px) and (max-width: 2560px){
+	.homemovil{
+		display: none;
+	}
+	.hometablet{
+		display: none;
+	}
+}
+
+@media (min-width: 535px) and (max-width: 824px){
+	.homeescritorio{
+		display: none;
+	}
+	.homemovil{
+		display: none;
+	}	
+}
+		
+@media (max-width: 534px){
+	.homeescritorio{
+		display: none !important;
+	}
+	.hometablet{
+		display: none !important;
+	}
+
+}
